@@ -80,4 +80,8 @@ img {
 .top-header .container .top-social-menu li:hover a {
   color: #e51515;
 }
+
+.top-header .container .login-area span {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */
