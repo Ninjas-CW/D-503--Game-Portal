@@ -1,0 +1,69 @@
+@import "abstracts";
+@import "components";
+
+/*GENERAL SETTINGS*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: $secondary-font;
+  color: $gray-color;
+}
+.container {
+  max-width: 114rem;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-transform: uppercase;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+.top-header {
+  border-bottom: 1px solid $primary-color;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      h1 {
+        font-size: 5rem;
+        font-family: $primary-font;
+        color: $primary-color;
+      }
+    }
+
+    .top-social-menu {
+      display: flex;
+
+      li {
+        padding: 1rem;
+        margin: 0 1rem;
+
+        a {
+          font-size: 2rem;
+          transition: all 0.5s;
+        }
+
+        &:hover a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
