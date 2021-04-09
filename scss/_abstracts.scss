@@ -31,9 +31,8 @@ $light-color: #fefefe;
 }
 
 /*MIXINS*/
-@mixin flex-display($display, $align-items, $justify-content) {
+@mixin flex-display($display, $justify-content, $align-items) {
   display: $display;
-  align-items: $align-item;
   justify-content: $justify-content;
+  align-items: $align-items;
 }
-

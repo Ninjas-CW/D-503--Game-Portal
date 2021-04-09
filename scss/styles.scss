@@ -41,7 +41,7 @@ img {
   border-bottom: 1px solid $primary-color;
 
   .container {
-    @include flex-display(flex, center, space-between);
+    @include flex-display(flex, space-between, center);
 
     .logo {
       h1 {
@@ -81,7 +81,7 @@ img {
 
 .nav-header {
   .navbar {
-    @include flex-display(flex, center, space-between);
+    @include flex-display(flex, space-between, center);
 
     .navbar-list {
       display: flex;
