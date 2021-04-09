@@ -29,3 +29,10 @@ $light-color: #fefefe;
     margin-left: 2rem;
   }
 }
+
+/*MIXINS*/
+@mixin flex-display($display, $align-items, $justify-content) {
+  display: $display;
+  justify-content: $align-items;
+  align-items: $justify-content;
+}
