@@ -1,6 +1,46 @@
 /*FONTS*/
 @import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
 /*VARIABLES*/
+/*UTILITIES*/
+.bg-dark {
+  background-color: #14151a;
+}
+
+.bg-light {
+  background-color: #fefefe;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.btn {
+  background-color: #fefefe;
+  color: #e51515;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #e51515;
+  color: #fefefe;
+}
+
+.btn-primary {
+  background-color: #e51515;
+  color: #fefefe;
+}
+
+.btn-primary:hover {
+  background-color: #fefefe;
+  color: #e51515;
+}
+
 /*GENERAL SETTINGS*/
 *,
 *::after,
@@ -27,7 +67,10 @@ body {
 }
 
 a {
+  text-decoration: none;
   text-transform: uppercase;
+  font-family: "Changa", sans-serif;
+  color: #fefefe;
 }
 
 ul {
@@ -57,7 +100,7 @@ img {
 
 .top-header .container .logo h1 {
   font-size: 5rem;
-  font-family: Chang, sans-serif;
+  font-family: "Changa", sans-serif;
   color: #e51515;
 }
 

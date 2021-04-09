@@ -1,5 +1,5 @@
-@import 'abstracts';
-@import 'components';
+@import '_abstracts';
+@import '_components';
 
 /*GENERAL SETTINGS*/
 
@@ -23,7 +23,10 @@ body {
   margin: 0 auto;
 }
 a {
+  text-decoration: none;
   text-transform: uppercase;
+  font-family: $primary-font;
+  color: $light-color;
 }
 ul {
   list-style: none;
