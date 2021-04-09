@@ -1,5 +1,5 @@
-@import "abstracts";
-@import "components";
+@import 'abstracts';
+@import 'components';
 
 /*GENERAL SETTINGS*/
 
@@ -31,6 +31,8 @@ ul {
 img {
   width: 100%;
 }
+
+/*TOP HEADER*/
 
 .top-header {
   border-bottom: 1px solid $primary-color;
