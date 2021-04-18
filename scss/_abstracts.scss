@@ -1,17 +1,18 @@
 /*FONTS*/
 
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap");
 
 /*VARIABLES*/
 
-$primary-font: 'Changa', sans-serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: "Changa", sans-serif;
+$secondary-font: "Open Sans", sans-serif;
 $primary-color: #e51515;
 $secondary-color: #14151a;
 $date-color: #ffb320;
 $comment-color: #08abbd;
 $gray-color: #9f9f9f;
 $light-color: #fefefe;
+$general-transition: all 0.5s;
 
 /*UTILITIES*/
 
@@ -30,8 +31,18 @@ $light-color: #fefefe;
   }
 }
 
+.text-white {
+  color: $light-color;
+}
+.text-primary {
+  color: $primary-color;
+}
+.text-center {
+  text-align: center;
+}
+
 /*MIXINS*/
-@mixin flex-display($display, $justify-content, $align-items) {
+@mixin flex-display($display, $align-items, $justify-content) {
   display: $display;
   justify-content: $justify-content;
   align-items: $align-items;
