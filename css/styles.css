@@ -524,7 +524,15 @@ img {
       grid-template-rows: auto;
   grid-row-gap: 4rem;
   grid-column-gap: 4rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+      grid-template-areas: "item-1 item-1 item-1 item-2" "item-3 item-4 item-5 item-6";
+=======
       grid-template-areas: 'item-1 item-1 item-1 item-2' 'item-3 item-4 item-5 item-6';
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
+=======
+      grid-template-areas: 'item-1 item-1 item-1 item-2' 'item-3 item-4 item-5 item-6';
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
 }
 
 .recent-games-content .recent-game-featured {
@@ -579,7 +587,15 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  content: "";
+=======
   content: '';
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
+=======
+  content: '';
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
   background-color: rgba(229, 21, 21, 0.6);
   width: 100%;
   height: 100%;
@@ -722,6 +738,11 @@ img {
   -webkit-clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
           clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
 
 /**GALLERY SECTION**/
 .masonary {
@@ -948,4 +969,8 @@ img {
   -webkit-transform: translateY(5rem);
           transform: translateY(5rem);
 }
+<<<<<<< HEAD
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
+=======
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
 /*# sourceMappingURL=styles.css.map */
