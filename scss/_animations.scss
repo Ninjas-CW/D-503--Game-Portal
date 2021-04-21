@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @keyframes mainAni {
   0% {
     opacity: 0;
@@ -16,6 +17,25 @@
     border-top: 2px solid $primary-color;
   }
 }
+=======
+@keyframes mainAni {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+    border-top: 0px solid $primary-color;
+  }
+
+  50% {
+    transform: translateY(-5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    border-top: 2px solid $primary-color;
+  }
+}
+>>>>>>> a02e012e93191411ed4b95fad2de43056882a701
 =======
 @keyframes mainAni {
   0% {
